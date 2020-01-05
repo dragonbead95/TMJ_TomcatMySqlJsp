@@ -1,0 +1,12 @@
+데이터베이스 생성->create database stdmanage;
+데이터베이스 사용->use stdmanage;
+test 테이블 생성
+=>
+create table test(
+seq int(10) not null auto_increment,
+id varchar(50),
+pw varchar(50),
+primary key(seq)
+);
+
+Dbinsert.jsp를 실행하여 사용하시면 됩니다.
